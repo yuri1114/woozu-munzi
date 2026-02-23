@@ -15,6 +15,33 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <div class="background flex-center justify-content">
+      <div class="workspace">
+        <div class="top-bar flex-center justify-end">
+          <!-- 토글하면 ui 리스트형, 네모형 변하기 -->
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDisabled"
+            />
+            <label
+              class="form-check-label"
+              for="flexSwitchCheckDisabled"
+            ></label>
+          </div>
+        </div>
+        <div class="flex-center justify-content">
+          <button type="button" class="write-btn" id="start-btn">
+            mung-mung!
+          </button>
+        </div>
+
+        <div id="open-popup"></div>
+        <div id="board-wrap"></div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
