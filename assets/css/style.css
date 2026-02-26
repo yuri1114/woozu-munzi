@@ -125,7 +125,10 @@ body {
 .workspace {
   min-width: 1024px;
   padding: 20px;
-  background: pink;
+  border: 1px solid #ffcc00;
+  border-radius: 8px;
+  margin-top: 50px;
+  min-height: 80vh;
 }
 
 .flex-center {
@@ -153,6 +156,7 @@ body {
   cursor: pointer;
   font-weight: bold;
   animation: floating 3s ease-in-out infinite;
+
 }
 
 @keyframes floating {
@@ -170,4 +174,48 @@ body {
 .write-btn:hover {
   animation-play-state: paused;
   filter: brightness(1.1);
+}
+
+.write-memo{
+  width: 100%;
+  border: 1px solid #ededed;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.color-box{
+  gap: 10px;
+}
+.munzi-color{
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.form-check-input._01{ background: #D1D161;}
+.form-check-input._02{ background: #FF7D59;}
+.form-check-input._03{ background: #FFBDEB;}
+.form-check-input._04{ background: #FFFAED;}
+.form-check-input._05{ background: #99B8ED;}
+.form-check-input._06{ background: #FFE5E0;}
+.form-check-input._07{ background: #FAAB99;}
+.form-check-input._08{ background: #FFDE94;}
+.form-check-input._09{ background: #CDDBF9;}
+.form-check-input._10{ background: #9A7DE9;}
+
+.form-check-input[type=radio] {
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+.form-check-input{
+
+}
+.bottom-btn-wrap{
+  margin-top:50px;
+  gap:10px;
+}
+
+#textareaMunze{
+  resize: none
 }

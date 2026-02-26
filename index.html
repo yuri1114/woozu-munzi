@@ -38,7 +38,56 @@
           </button>
         </div>
 
-        <div id="open-popup"></div>
+        <!--먼지 입력창-->
+        <div id="write-popup" class="write-memo">
+          <div class="mb-3">
+            <label for="textareaMunze" class="form-label">자유로운 먼지를 적어보자 !</label>
+            <textarea class="form-control" id="textareaMunze" rows="3"></textarea>
+          </div>
+
+          Select Color!
+          <!-- TODO 컬러 선택하고 저장버튼 누르면 메모 색 생성-->
+          <div class="color-box flex-center">
+
+            <div class="form-check">
+              <input class="form-check-input munzi-color _01" type="radio" name="radioDefault" value="munzi-color1" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _02" type="radio" name="radioDefault" value="munzi-color2" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _03" type="radio" name="radioDefault" value="munzi-color3" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _04" type="radio" name="radioDefault" value="munzi-color4" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _05" type="radio" name="radioDefault" value="munzi-color5" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _06" type="radio" name="radioDefault" value="munzi-color6" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _07" type="radio" name="radioDefault" value="munzi-color7" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _08" type="radio" name="radioDefault" value="munzi-color8" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _09" type="radio" name="radioDefault" value="munzi-color9" >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input munzi-color _10" type="radio" name="radioDefault" value="munzi-color10">
+            </div>
+          </div>
+
+          <div class="bottom-btn-wrap justify-content flex-center">
+            <button type="button" class="btn btn-dark" id="btn btn-outline-dark">BYE</button>
+            <button type="button" class="btn btn-dark" id="save-btn">SAVE !</button>
+          </div>
+        </div>
+
+        <!--저장된메모리스트-->
         <div id="board-wrap"></div>
       </div>
     </div>
