@@ -58,11 +58,12 @@
 
         <!--저장된메모리스트-->
         <div class="list">
+          <select class="form-select order-select" onchange="orderChange()">
+            <option value="latest" selected>최신순</option>
+            <option value="oldest">오래된순</option>
+          </select>
+
           <ul id="board-wrap">
-            <li class="color_value">
-              <p class="memo-text"></p>
-              <p class="create-date"></p>
-            </li>
           </ul>
         </div>
       </div>
